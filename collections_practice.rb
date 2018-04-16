@@ -69,10 +69,10 @@ def merge_data(hash, data)
   while i < hash.length
     merge_data << hash[i].merge(data[0].values[i])
     i += 1 
-    #binding.pry
+    binding.pry
   end
   merge_data
-  #binding.pry
+  binding.pry
 end
 
 def find_cool(array)
